@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import ip from "ip";
 import meow from "meow";
 import qr from "qrcode-terminal";

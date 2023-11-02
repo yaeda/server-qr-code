@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "shows qr code of server url",
   "main": "index.js",
+  "bin": {
+    "server-qr-code": "index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
