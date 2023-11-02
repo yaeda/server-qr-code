@@ -2,7 +2,7 @@
 
 Shows QR code of server url.
 
-If you're using Vite, you should use [vite-plugin-qrcode](https://github.com/svitejs/vite-plugin-qrcode/tree/main).
+![standalone screenshot](./screenshot_standalone.png)
 
 ## Installation
 
@@ -12,13 +12,13 @@ npm install --save-dev server-qr-code
 
 ## Usage
 
-standalone
+### standalone
 
 ```bash
 npx server-qr-code
 ```
 
-with Next.js
+### with Next.js
 
 ```diff
 "scripts": {
@@ -29,6 +29,21 @@ with Next.js
   "start": "next start",
   "lint": "next lint"
 },
+```
+
+![with Next.js](./screenshot_with_nextjs.png)
+
+If you're using Vite, you should use [vite-plugin-qrcode](https://github.com/svitejs/vite-plugin-qrcode/tree/main).
+
+## Options
+
+Options are the same as `next dev` and `next start`.
+
+```bash
+Options
+  --port, -p      A port number (default: 3000)
+  --hostname, -H  Hostname
+  --help          Displays this message
 ```
 
 ## License
