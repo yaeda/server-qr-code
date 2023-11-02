@@ -1,0 +1,25 @@
+{
+  "name": "server-qr-code",
+  "version": "1.0.0",
+  "description": "shows qr code of server url",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaeda/server-qr-code.git"
+  },
+  "author": "Takeshi Yaeda <t.yaeda@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaeda/server-qr-code/issues"
+  },
+  "homepage": "https://github.com/yaeda/server-qr-code#readme",
+  "dependencies": {
+    "ip": "^1.1.8",
+    "meow": "^12.1.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
